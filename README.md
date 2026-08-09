@@ -229,3 +229,16 @@ Do not redistribute the `.mcaddon`, scripts, artwork, or modified versions; sell
 Minecraft is a trademark of Microsoft. This project is not affiliated with or endorsed by Microsoft or Mojang.
 
 The promotional logo and hero are AI-assisted illustrative artwork. They are not in-game screenshots and do not add custom tool, ore, block, or tree textures.
+
+## More Andy The Maker Add-ons
+
+Explore more official Andy The Maker-created add-ons for Minecraft Bedrock:
+
+- [Andy's Copper Powered Rails](https://github.com/CharlesJGantt/andys-copper-powered-rails) — Craft powered rails with copper instead of gold.
+- [Andy's Disenchanting Pillar](https://github.com/CharlesJGantt/andys-disenchanting-pillar) — Extract chosen enchantments into reusable books.
+- [Andy's Dyeable Item Frames](https://github.com/CharlesJGantt/andys-dyeable-item-frames) — Dye normal and glow item frames with rotation and label controls.
+- [Andy's Handy Hotbar Reloader](https://github.com/CharlesJGantt/andys-handy-hotbar-reloader) — Auto-refill, slot memory, and per-player hotbar blueprints.
+- [Andy's Palette Paver](https://github.com/CharlesJGantt/andys-palette-paver) — Randomize hotbar block placement for natural-looking builds.
+- [Andy's Runebound Reliquary](https://github.com/CharlesJGantt/Andys-Runebound-Reliquary) — Survival-balanced, upgradeable experience storage.
+- [Andy's Silk Touch Relics](https://github.com/CharlesJGantt/Andys-Silk-Touch-Relics) — Achievement-friendly rare-block harvesting.
+- [Andy's Ticking Area Rune](https://github.com/CharlesJGantt/Andys-Ticking-Area-Rune) — Configurable ticking areas and chunk loading.
