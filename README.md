@@ -8,16 +8,16 @@
 
 Crouch-mine connected ores and materials, fell trees, and shear leaves—with every target controlled by a world setting that starts off.
 
-Current release: **2.1.0**
+Current release: **2.2.1**
 
 ## Download
 
-[Download Andy's Configurable Vein Miner and Tree Capacitor 2.1.0](./Andys%20Configurable%20Vein%20Miner%20and%20Tree%20Capacitor%202.1.0.mcaddon)
+[Download Andy's Configurable Vein Miner and Tree Capacitor 2.2.1](./Andys%20Configurable%20Vein%20Miner%20and%20Tree%20Capacitor%202.2.1.mcaddon)
 
 SHA-256:
 
 ```text
-141E93979E76355157E6BEFD47A2A3A4D13A359700A4F379055FE948ACE3323F
+17D5E75A5271EA23E53A36E1F17889D9C770813AE76A55BD88D5AB565284309C
 ```
 
 - Minimum Minecraft Bedrock version: **1.26.30**
@@ -34,6 +34,8 @@ This remains one add-on and one download. Bedrock limits one pack manifest to 50
 - **Andy's Configurable Vein Miner - Required Block Settings (2 of 2)**
 
 Activate the main pack and keep both active. Minecraft should activate the required companion automatically. Open the gear/settings button on both entries to configure every option. The companion is not a duplicate and does not contain another mining engine.
+
+The gear buttons are for local worlds and Realms. Hosted Bedrock Dedicated Server administrators can configure all 72 options through the operator menu or server console without gear-icon access.
 - Optional compatibility: **All In One Tool and Core Craft**
 
 ## Highlights
@@ -50,6 +52,7 @@ Activate the main pack and keep both active. Minecraft should activate the requi
 - Exact-type tree isolation and bounded face-connected leaves
 - Live tracking for gravel, sand, concrete powder, suspicious sand, and suspicious gravel
 - Drops gathered at the first broken block
+- Persistent operator and hosted-console configuration for Bedrock Dedicated Servers
 
 ## Install
 
@@ -65,6 +68,8 @@ Activate the main pack and keep both active. Minecraft should activate the requi
 10. Enter the world.
 
 For console play, import and configure the world on a supported Windows or mobile device, upload/apply it through a Realm, and join that Realm from the console.
+
+For a hosted Bedrock Dedicated Server, an operator can run `/scriptevent andy_vmtc:config`, or the host console can run `scriptevent andy_vmtc:help`. No gear-icon access is required. Server choices persist in the world only after an administrator saves them. Resetting the override restores the behavior-pack configuration already stored in the world—normally all off on a new hosted installation, or the selections saved before a configured world was uploaded.
 
 ## Use
 

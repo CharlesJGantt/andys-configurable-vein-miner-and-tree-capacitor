@@ -1,13 +1,12 @@
-# Andy's Configurable Vein Miner and Tree Capacitor 2.1.0
+# Andy's Configurable Vein Miner and Tree Capacitor 2.2.1
 
-Version 2.1.0 expands the add-on from 23 to 67 individually configurable material groups while keeping all 72 settings disabled by default.
+Version 2.2.1 fixes the hosted-server operator menu so every toggle saves to its matching setting while preserving all existing mining behavior and all 72 settings.
 
-- Added 44 new terrain, building, storage, vegetation, snow, ice, glass, copper, archaeology, and utility groups.
-- Added Ice support for ice, packed ice, blue ice, and frosted ice.
-- Added live falling-block tracking for suspicious sand and gravel.
-- Added correct pickaxe, shovel, hoe, and shears requirements plus matching sounds.
-- Preserved exact-type material isolation, wave pacing, durability, enchantments, drops, tree behavior, and optional AIOT/Core Craft support.
-- Added a comprehensive GitHub Wiki user guide.
-- Packaged the settings as a clearly labeled Main Pack (1 of 2) and Required Block Settings companion (2 of 2) to stay below Bedrock's 50-element manifest limit; both install from this single `.mcaddon`.
+## Fixed
 
-Important: Suspicious Sand + Gravel can destroy hidden archaeology contents. Leave that switch off until valuable suspicious blocks have been brushed normally.
+- Fixed Ores reverting to off after saving through `/scriptevent andy_vmtc:config`.
+- Fixed the remaining toggles being shifted to the wrong setting positions.
+- Added strict response validation so malformed form data cannot alter the saved configuration.
+- Kept existing 2.2.0 persistent server settings fully compatible.
+
+Direct server-console commands continue to work normally. Mining speed, sounds, drops, durability, supported blocks, trees, leaves, gravity-block handling, and optional compatibility are unchanged.
